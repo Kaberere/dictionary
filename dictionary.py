@@ -13,7 +13,7 @@ import smtplib
 for i in range(len(list)):
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("kaberereeve44@gmail.com", " 27538204079")
+    s.login("kaberereeve44@gmail.com", "")
     subject = "Women empowerment"
     message = "Welcome to my world."
     s.sendmail("kaberereeve44@gmail.com",
