@@ -15,7 +15,7 @@ for i in range(len(list)):
     s.starttls()
     s.login("kaberereeve44@gmail.com", " 27538204079")
     subject = "Women empowerment"
-    message = "Bishes, Women in Technology!!!"
+    message = "Welcome to my world."
     s.sendmail("kaberereeve44@gmail.com",
                dict_one.values, message)
     s.quit()
